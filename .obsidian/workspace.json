@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a29d81b65cb7c4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3a75985b1fec7e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular/Components/Content Projection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Content Projection"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba7d8c35d32cbdf3",
+    "type": "split",
+    "children": [
+      {
+        "id": "93fbab1a68a8031f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "422cfa8fe4dce9dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f02ff52bf63106f6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7e78f276df4ca5a9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 251.5
+  },
+  "right": {
+    "id": "a1d72f0a752e4218",
+    "type": "split",
+    "children": [
+      {
+        "id": "2df5296894c8e4c8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83dbc2b03fd96272",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Angular/Components/Basics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Basics"
+            }
+          },
+          {
+            "id": "a15306c44a1e376e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Angular/Components/Basics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Basics"
+            }
+          },
+          {
+            "id": "aac94bd497f07675",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8c3851afcbb35535",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Angular/Components/Basics.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Basics"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "c3a75985b1fec7e2",
+  "lastOpenFiles": [
+    "Angular/Components/Content Projection.md",
+    "README.md",
+    "Angular/Components/Queries.md",
+    "Angular/Components/Component Basics.md",
+    "Angular/Components/Dynamic Rendering.md",
+    "Angular/Signals.md",
+    "Templates.md",
+    "Angular/Templates",
+    "Angular/Components/Templates.md",
+    "Angular/Components/Lifecycle.md",
+    "Angular/Components/Input & Output.md",
+    "Angular/Components/Change Detection.md",
+    "Output.md",
+    "_images/hooks_update_order.png",
+    "_images/hooks_execution_order.png",
+    "RxJS/RxJS.md",
+    "Angular/Components/Output.md",
+    "_images",
+    "_images/component_tree.png",
+    "Home.md",
+    "Subjects.md",
+    "Computer Science",
+    "_canvas",
+    "Untitled.canvas",
+    "The Internet",
+    "RxJS",
+    "Angular/Components",
+    "Angular/Signals",
+    "Angular/dddd.md",
+    "Angular",
+    "create a link.md",
+    "2025-05-12.md",
+    "Welcome.md"
+  ]
+}
