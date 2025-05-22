@@ -2,5 +2,8 @@
   "promptDelete": false,
   "vimMode": false,
   "showInlineTitle": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "README.md"
+  ]
 }

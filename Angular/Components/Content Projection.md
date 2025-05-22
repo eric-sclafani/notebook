@@ -56,3 +56,23 @@ Expanding the card example from above, you could create two placeholders for a c
 
 # Fallback Content
 
+Angular can show _fallback content_ for a component's `<ng-content>` placeholder if that component doesn't have any matching child content. 
+
+You can specify fallback content by adding child content to the `<ng-content>` element itself.
+
+```html
+<!-- Component template -->
+<div class="card-shadow">
+  <ng-content select="card-title">Default Title</ng-content>
+  <div class="card-divider"></div>
+  <ng-content select="card-body">Default Body</ng-content>
+</div>
+```
+
+```html
+<!-- Using the component -->
+<custom-card>
+  <card-title>Hello</card-title>
+  <!-- No card-body provided -->
+</custom-card>
+```

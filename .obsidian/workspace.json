@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5a29d81b65cb7c4d",
+        "id": "7a516cd5df42e8a6",
         "type": "tabs",
         "children": [
           {
-            "id": "c3a75985b1fec7e2",
+            "id": "f1f4eb740f4d777a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Components/Content Projection.md",
+                "file": "Angular/Templates/Pipes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Content Projection"
+              "title": "Pipes"
             }
           }
         ]
@@ -168,14 +168,24 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c3a75985b1fec7e2",
+  "active": "f1f4eb740f4d777a",
   "lastOpenFiles": [
-    "Angular/Components/Content Projection.md",
+    "Angular/Templates/Pipes.md",
+    "Angular/Templates/Control Flow.md",
+    "Angular/Templates/Two-way Binding.md",
+    "Angular/Forms/Reactive Forms.md",
+    "Angular/Forms/Template-driven Forms.md",
+    "Angular/Templates/Property Binding.md",
+    "Angular/Templates/Event Listeners.md",
+    "Angular/Signals.md",
     "README.md",
+    "Angular/Forms",
+    "Angular/Directives/Image Optimization.md",
+    "Angular/Directives",
+    "Angular/Components/Content Projection.md",
     "Angular/Components/Queries.md",
     "Angular/Components/Component Basics.md",
     "Angular/Components/Dynamic Rendering.md",
-    "Angular/Signals.md",
     "Templates.md",
     "Angular/Templates",
     "Angular/Components/Templates.md",
@@ -199,9 +209,6 @@
     "Angular/Components",
     "Angular/Signals",
     "Angular/dddd.md",
-    "Angular",
-    "create a link.md",
-    "2025-05-12.md",
-    "Welcome.md"
+    "create a link.md"
   ]
 }
