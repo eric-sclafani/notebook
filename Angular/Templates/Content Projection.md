@@ -4,7 +4,7 @@ This is where `<ng-content>` comes in. Inside a component's template, `<ng-conte
 
 In the following example, any HTML passed into the **custom-card** component will be rendered where the `<ng-content>` is:
 
-```ts
+```angular-ts
 @Component({
   selector: 'custom-card',
   template: '<div class="card-shadow"> <ng-content></ng-content> </div>',

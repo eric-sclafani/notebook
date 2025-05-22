@@ -5,7 +5,7 @@ A `Component` is a typescript class containing:
 > 3. Methods/properties for **rendering control** and **application-specific business logic**
 > 4. Optional styling
 
-```typescript title="nav-bar.component.ts"
+```angular-ts title="nav-bar.component.ts"
 @Component({
 	selector: 'app-nav-bar',
 	templateUrl: 'nav-bar.component.html',
@@ -22,6 +22,7 @@ export class NavBar(){
 	}
 }
 ```
+
 
 In the code above:
 
@@ -49,7 +50,7 @@ Angular creates an instance of a component **for every HTML element that matches
 
 The DOM element that matches a component's selector is that component's ==**host element**==. The contents of a component's template are rendered inside its host element.
 
-```typescript
+```angular-ts
 @Component({
   selector: 'profile-photo',
   template: `
@@ -81,7 +82,7 @@ In the above example, `<profile-photo>` is the host element of the `ProfilePhoto
 
 A component can bind **properties**, **attributes**, and **events** to its host element. This behaves identically to bindings on elements inside the component's template, but instead defined with the `host` property in the `@Component` decorator:
 
-```typescript
+```angular-ts
 @Component({
   ...,
   host: {

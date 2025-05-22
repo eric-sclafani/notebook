@@ -10,7 +10,7 @@ All query functions return [[Signals|signals]] that reflect the most up-to-date 
 
 To query an element from the template, we need to assign it a **template reference**, using the # syntax:
 
-```typescript
+```angular-ts
 @Component({
     selector: "book",
     template: `
@@ -36,7 +36,7 @@ The `viewChild` signal query returns a signal whose emitted value _is_ the queri
 
 Aside from plain HTML elements, we can also query for **component instances**
 
-```ts
+```angular-ts
 @Component({
   selector: 'custom-card-header',
   /*...*/
@@ -56,7 +56,7 @@ export class CustomCard {
 
 We can change the default behavior off `viewChild` by providing it a **read** configuration. In the following code, the signal is being told to **return the ElementRef** to access the HTML, instead of returning the **component instance**.
 
-```ts
+```angular-ts
 @Component({
   template: `
     <div>
@@ -73,7 +73,7 @@ class BookListComponent {
 
 Additionally, if the queried element has multiple directives on it, the `read` configuration lets you target a specific one:
 
-```ts
+```angular-ts
 @Component({
     template: `
     <div>
@@ -117,7 +117,7 @@ The decorator versions are the older way to create these queries, but is still v
 
 You can query for a single result with the `contentChild` function.
 
-```ts
+```angular-ts
 @Component({
   selector: "book",
   template: `

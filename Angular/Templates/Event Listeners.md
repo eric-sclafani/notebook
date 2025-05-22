@@ -1,6 +1,6 @@
 Angular supports defining event listeners on an element by specifying the event name inside **parentheses** along with a statement that runs every time the event occurs.
 
-```ts
+```angular-ts
 @Component({
   template: `
     <input type="text" (keyup)="updateField()" />
@@ -22,7 +22,7 @@ You can add listeners for any native events, such as: `click`, `keydown`, `mouse
 
 In every template event listener, Angular provides a variable named `$event` that contains a reference to the event object:
 
-```ts
+```angular-ts
 @Component({
   template: `
     <input type="text" (keyup)="updateField($event)" />
@@ -38,7 +38,7 @@ export class AppComponent {
 
 Angular also lets you filter the events by **specifying a specific key** using the period (`.`) character. By doing so, code can be simplified to:
 
-```ts
+```angular-ts
 @Component({
   template: `
     <input type="text" (keyup.enter)="updateField($event)" />
@@ -76,7 +76,7 @@ For example, when using the Alt key on MacOS devices, the `key` property reports
 
 If your event handler should replace the native browser behavior, you can use the event object's [`preventDefault` method](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault):
 
-```ts
+```angular-ts
 @Component({
   template: `
     <a href="#overlay" (click)="showOverlay($event)">

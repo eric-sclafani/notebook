@@ -14,7 +14,7 @@ Developers commonly **use two-way binding to keep component data in sync with a 
 
 For example, when a user fills out a text input, it should update the state in the component:
 
-```ts
+```angular-ts
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 @Component({
@@ -46,7 +46,7 @@ Leveraging two-way binding between a parent and child component requires more co
 
 Here is an example where the `AppComponent` is responsible for **setting the initial count state**, but the logic for updating and rendering the UI for the counter primarily resides inside its child `CounterComponent`:
 
-```ts title="./app.component.ts"
+```angular-ts title="./app.component.ts"
 import { Component } from '@angular/core';
 import { CounterComponent } from './counter/counter.component';
 @Component({
@@ -64,7 +64,7 @@ export class AppComponent {
 }
 ```
 
-```ts title="./counter.component.ts"
+```angular-ts title="./counter.component.ts"
 import { Component, model } from '@angular/core';
 @Component({
   selector: 'app-counter',

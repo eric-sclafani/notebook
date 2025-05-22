@@ -3,7 +3,7 @@ In Angular, a **binding** creates a dynamic connection between a component's tem
 
 You can bind dynamic text in templates with double curly braces, which tells Angular that it is responsible for the expression inside and ensuring it is updated correctly. This is called **text interpolation**.
 
-```ts
+```angular-ts
 @Component({
   template: `
     <p>Your color preference is {{ theme }}.</p>
@@ -82,7 +82,7 @@ You can also bind directly to the `class` property. Angular accepts three types 
 | An array of CSS class strings                                                                                                                                     | `string[]`           |
 | An object where each property name is a CSS class name and each corresponding value determines whether that class is applied to the element, based on truthiness. | `Record<string,any>` |
 
-```ts
+```angular-ts
 @Component({
   template: `
     <ul [class]="listClasses"> ... </ul>
@@ -116,7 +116,7 @@ You can also bind to CSS style properties directly on an element.
 
 You can also set multiple style values in one binding, similar to how it is done with classes:
 
-```ts
+```angular-ts
 @Component({
   template: `
     <ul [style]="listStyles"> ... </ul>
@@ -132,3 +132,4 @@ export class UserProfile {
   };
 }
 ```
+

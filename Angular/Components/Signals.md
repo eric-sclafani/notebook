@@ -13,6 +13,13 @@ Signals are useful for many reasons:
 
 >5. **Effects** - when a signal's state changes, ==effects== allow code snippets to run in response, allowing for side effects to happen.
 
+Inside of **HTML templates**, `signals` are called as functions to display their values:
+
+```angular-html
+<header>
+	Hello, {{ firstName() }}!
+</header>
+```
 
 # Writable Signals
 

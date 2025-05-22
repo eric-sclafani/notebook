@@ -43,7 +43,7 @@ Each `SimpleChange` contains the input's **previous value**, its **current value
   /* ... */
 })
 export class UserProfile {
-  @Input() name: string = '';
+  name = input<string>('')
   
   ngOnChanges(changes: SimpleChanges) {
     for (const inputName in changes) {

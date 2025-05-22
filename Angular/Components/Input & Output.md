@@ -4,7 +4,7 @@ It is common to pass ==data== into components and Angular provides two ways to d
 
 The former, `@Input()`,  is the traditional way.
 
-```typescript
+```angular-ts
 import { Component, Input } from '@angular/core';
 
 // parent component
@@ -31,7 +31,7 @@ Starting in Angular 17,  the `input()` signal was born. While the input decorato
 >See [[Signals|signals]] for more information about signal-based reactivity
 >
 
-```typescript
+```angular-ts
 import { Component, input } from '@angular/core';
 
 // parent component
@@ -104,7 +104,7 @@ export class CustomSlider {
 
 **Model inputs** allow for ==two way communication== between parent and child with the `model()` function. They can also be made required with `model.required()`.
 
-```typescript
+```angular-ts
 @Component({ /* ... */})
 export class CustomSlider {
   value = model(0);
