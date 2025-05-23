@@ -8,7 +8,7 @@ All query functions return [[Signals|signals]] that reflect the most up-to-date 
 
 **View queries** retrieve results from the elements in the component's _view_ — the elements defined in the component's own template. You can query for a single result with the `viewChild` function.
 
-To query an element from the template, we need to assign it a **template reference**, using the # syntax:
+To query an element from the template, we need to assign it a [[Template References|template reference]], using the # syntax:
 
 ```angular-ts
 @Component({

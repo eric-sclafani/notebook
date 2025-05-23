@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Templates/Content Projection.md",
+                "file": "Angular/Templates/Template References.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Content Projection"
+              "title": "Template References"
             }
           }
         ]
@@ -170,6 +170,9 @@
   },
   "active": "3076f2015940c6f8",
   "lastOpenFiles": [
+    "Angular/Components/Queries.md",
+    "Angular/Templates/Template References.md",
+    "Angular/Templates/Content Projection.md",
     "Angular/Templates/Ng Container.md",
     "Angular/Dependency Injection/Dependency Injection.md",
     "Angular/Dependency Injection",
@@ -179,9 +182,7 @@
     "Angular/Templates/Two-way Binding.md",
     "Angular/Templates/Pipes.md",
     "Angular/Templates/Event Listeners.md",
-    "Angular/Templates/Content Projection.md",
     "Angular/Components/Signals.md",
-    "Angular/Components/Queries.md",
     "Angular/Components/Lifecycle.md",
     "Angular/Components/Input & Output.md",
     "Angular/Components/Component Basics.md",
@@ -201,7 +202,6 @@
     "_images/hooks_update_order.png",
     "_images/hooks_execution_order.png",
     "RxJS/RxJS.md",
-    "Angular/Components/Output.md",
     "_images",
     "_images/component_tree.png",
     "Computer Science",
