@@ -102,6 +102,39 @@ export class CustomSlider {
 }
 ```
 
+
+# @HostBinding & @HostListener
 >[!warning]
-> You can also use the `@HostListener` and `@HostBinding` decorators to do this too, but they only exist for _compatibility reasons_. Always prefer `host`.
+> According to Angular documentation, the decorator approach only exists for compatibility reasons. Although it is still viable,  always prefer `host`.
+
+`@HostBinding` lets you bind host properties and attributes to properties and methods:
+
+```angular-ts
+@Component({
+  /* ... */
+})
+export class CustomSlider {
+
+  @HostBinding('attr.aria-valuenow')
+  value: number = 0;
+  
+  @HostBinding('tabIndex')
+  getTabIndex() {
+    return this.disabled ? -1 : 0;
+  }
+  /* ... */
+}
+```
+
+`@HostListener` lets you bind **event listeners** to the host element. The decorator accepts an event name and an optional array of arguments:
+
+```angular-ts
+export class CustomSlider {
+
+  @HostListener('keydown', ['$event'])
+  updateValue(event: KeyboardEvent) {
+    /* ... */
+  }
+}
+```
 
