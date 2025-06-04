@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/Routing/Route State.md",
+                "file": "Angular/Forms/Template-driven Forms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Route State"
+              "title": "Template-driven Forms"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "f34599f88d7a49ae",
   "lastOpenFiles": [
-    "Angular/Routing/Route Navigation.md",
+    "Angular/Forms/Reactive Forms.md",
     "Angular/Routing/Route State.md",
+    "Angular/Routing/Route Navigation.md",
     "RxJS/Observables.md",
     "Angular/Templates/Ng Container.md",
     "Angular/Routing/Defining Routes.md",
@@ -197,7 +198,6 @@
     "Angular/Templates/Template References.md",
     "Angular/Components/Queries.md",
     "Angular/Dependency Injection",
-    "Angular/Components/Signals.md",
     "Angular/Forms",
     "Angular/Directives",
     "Angular/Templates",

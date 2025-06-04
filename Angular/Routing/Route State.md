@@ -104,6 +104,35 @@ export class ProductDetailComponent {
 }
 ```
 
+### withComponentInputBinding
+
+When using **standalone components with the Angular Router**, you can now bind route data directly to component inputs **without having to manually pull from the `ActivatedRoute` service** — but to do this, you must opt into it with `withComponentInputBinding()`.
+
+```angular-ts
+export const routes: Routes = [
+  {
+    path: 'hero/:id',
+    component: HeroComponent,
+    providers: [withComponentInputBinding()]
+  }
+];
+```
+
+And in the component:
+
+```angular-ts
+@Component({
+  standalone: true,
+  selector: 'app-hero',
+  template: `<p>Hero ID: {{ id }}</p>`
+})
+export class HeroComponent {
+  id = input.required<string>()  // This will be automatically bound to route param `id`
+}
+```
+
+
+
 
 # Query parameters
 
@@ -234,4 +263,36 @@ If you only want to apply the class on an exact match, you need to provide the `
   Role
 </a>
 ```
+
+# Guards
+
+Use **==route guards==** to prevent users from navigating to parts of an application without authorization. When users navigate to a "guarded" route, the guard code activates which either enables or disables the user from being able to navigate to that route.
+
+Types of guards:
+- **CanActivate**: Determines if a route can be activated.
+- **CanActivateChild**: Determines if child routes can be activated.
+- **CanDeactivate**: Determines if you can leave the current route.
+- **Resolve**: Fetches data before the route is activated.
+- **CanLoad**: Prevents lazy-loaded modules from loading until conditions are met.
+
+```angular-ts
+export const yourGuardFunction: CanActivateFn = (
+  next: ActivatedRouteSnapshot,
+  state: RouterStateSnapshot
+) => {
+  // your  logic goes here
+}
+```
+
+```angular-ts
+{
+  path: '/your-path',
+  component: YourComponent,
+  canActivate: [yourGuardFunction],
+}
+```
+
+
+
+
 
