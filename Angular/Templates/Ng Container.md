@@ -89,7 +89,7 @@ You can also apply structural directives to `<ng-container>` elements. Common ex
 # Using ng-container for injection
 
 >[!info] 
->See the [[Dependency Injection]] section for more information on Angular's dependency injection system.
+>See the [[Angular/Dependency Injection/Basics]] section for more information on Angular's dependency injection system.
 
 When you apply a directive to `<ng-container>`, descendant elements can inject the directive or anything that the directive provides. Use this when you want to declaratively provide a value to a specific part of your template.
 

@@ -15,7 +15,7 @@ A `Component` is a typescript class containing:
 	// template: '...',
 	// styles: 'body: {height:100%}'
 })
-export class NavBar(){
+export class NavBar {
 
 	onClick():void{
 		console.log('Howdy!')

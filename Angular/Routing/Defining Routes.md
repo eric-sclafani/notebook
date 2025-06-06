@@ -112,7 +112,7 @@ const routes: Routes = [
 
 # Route-level providers for DI
 
-Each route has a `providers` property that lets you provide dependencies to that route's content via [[Dependency Injection|dependency injection]].
+Each route has a `providers` property that lets you provide dependencies to that route's content via [[Angular/Dependency Injection/Basics|dependency injection]].
 
 Common scenarios where this can be helpful include applications that have different services based on whether the user is an admin or not.
 
