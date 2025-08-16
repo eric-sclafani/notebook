@@ -13,7 +13,7 @@ The point was to force myself to read the docs page by page, and I'm glad I did.
 	- [[Queries]]
 	- [[Signals]]
 - **Dependency Injection**
-	- [[Basics]]
+	- [[Angular/HttpClient/Basics]]
 - **Directives**
 	- [[Attribute Directives]]
 	- [[Directive Composition API]]
@@ -24,7 +24,7 @@ The point was to force myself to read the docs page by page, and I'm glad I did.
 	- [[Reactive Forms]]
 	- [[Template-driven Forms]]
 - **HttpClient**
-	- [[Basics]]
+	- [[Angular/HttpClient/Basics]]
 	- [[Intercepting Requests]]
 - **Routing**
 	- [[Child Routes]]

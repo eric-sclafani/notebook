@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6b2b37bb02bcc99",
+        "id": "6a019d76a6fc8ceb",
         "type": "tabs",
         "children": [
           {
-            "id": "aed43c4116816f55",
+            "id": "cee389ed673127af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Angular/HttpClient/Intercepting Requests.md",
+                "file": "Computer Science/Algorithms/Sorting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intercepting Requests"
+              "title": "Sorting"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
@@ -165,50 +165,53 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "aed43c4116816f55",
+  "active": "cee389ed673127af",
   "lastOpenFiles": [
-    "Angular/HttpClient/Basics.md",
-    "Angular/Templates/Pipes.md",
+    "Computer Science/Algorithms/Algorithmic Complexity.md",
+    "Computer Science/Algorithms/Sorting.md",
+    "Angular/Components/Change Detection.md",
+    "Computer Science/Algorithms/Runtimes.md",
+    "Computer Science/Algorithms/Recursion.md",
     "Angular/Components/Component Basics.md",
-    "README.md",
+    "Angular/Components/Signals.md",
+    "_images/bigo.jpg",
+    "Computer Science/Computer Science.md",
+    "Home.md",
     "Angular/Angular.md",
-    "Angular/HttpClient/Intercepting Requests.md",
-    "Angular/Dependency Injection/Basics.md",
-    "RxJS/RxJS.md",
-    "Angular/Forms/Template-driven Forms.md",
-    "Angular/HttpClient",
+    "Computer Science/Data Structures/Data Structures.md",
+    "Computer Science/Algorithms/Algorithms.md",
+    "Math",
+    "Computer Science/Data Structures/Linked Lists.md",
+    "Untitled.md",
+    "_images/single_ll.jpg",
+    "Computer Science/Data Structures/Arrays.md",
     "Angular/Forms/Reactive Forms.md",
-    "Angular/Forms/Reactive Forms/Form Group.md",
-    "Angular/Forms/Reactive Forms",
-    "Angular/Forms/Form Control.md",
-    "Angular/Routing/Route State.md",
-    "Angular/Routing/Route Navigation.md",
+    "Computer Science/Storage",
+    "Computer Science/Algorithms/1.Basics.md",
     "RxJS/Observables.md",
-    "Angular/Templates/Ng Container.md",
-    "Angular/Routing/Defining Routes.md",
-    "Angular/Routing/Router Outlet.md",
-    "Angular/Routing/Child Routes.md",
-    "Angular/Templates/Control Flow.md",
-    "Angular/Routing",
-    "Angular/Templates/Deferred Loading.md",
-    "Angular/Directives/Image Optimization.md",
-    "Angular/Directives/Structural Directives.md",
+    "RxJS/RxJS.md",
+    "Angular/Routing/Route State.md",
+    "README.md",
+    "Computer Science/Algorithms",
+    "Angular/Dependency Injection/Basics.md",
+    "Computer Science/Data Structures",
+    "DotNet",
+    "Phaser3/Basics.md",
+    "Phaser3",
     "Angular/Directives/Directive Composition API.md",
-    "Angular/Directives/Attribute Directives.md",
-    "Angular/Templates/Template Fragments.md",
+    "Angular/Directives/Structural Directives.md",
+    "Angular/Directives/Image Optimization.md",
+    "Angular/HttpClient",
+    "Angular/Forms/Reactive Forms",
+    "Angular/Routing",
     "Angular/Dependency Injection",
-    "Angular/Forms",
-    "Angular/Directives",
-    "Angular/Templates",
     "_images/hooks_update_order.png",
     "_images/hooks_execution_order.png",
-    "_images",
     "_images/component_tree.png",
-    "Computer Science",
-    "_canvas",
     "Untitled.canvas"
   ]
 }

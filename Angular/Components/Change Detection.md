@@ -36,10 +36,6 @@ With `OnPush`, Angular **only checks a component when**:
 
 `OnPush` can lead to performance increases because Angular runs less change detections. However, using it requires writing code in a specific way that works with this detection strategy [see here](https://blog.angular-university.io/onpush-change-detection-how-it-works/) for more information.
 
->[!todo]
->Come back to this section after playing around more with change detection
->
-
 
 # Running code outside of Zone.js
 
