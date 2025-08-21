@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a019d76a6fc8ceb",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "cee389ed673127af",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -169,18 +170,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cee389ed673127af",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Computer Science/Algorithms/Algorithmic Complexity.md",
+    "Computer Science/Computer Science.md",
+    "Home.md",
     "Computer Science/Algorithms/Sorting.md",
+    "Computer Science/Algorithms/Algorithmic Complexity.md",
+    "_images/merge_sort.jpg",
     "Angular/Components/Change Detection.md",
     "Computer Science/Algorithms/Runtimes.md",
     "Computer Science/Algorithms/Recursion.md",
     "Angular/Components/Component Basics.md",
     "Angular/Components/Signals.md",
     "_images/bigo.jpg",
-    "Computer Science/Computer Science.md",
-    "Home.md",
     "Angular/Angular.md",
     "Computer Science/Data Structures/Data Structures.md",
     "Computer Science/Algorithms/Algorithms.md",
@@ -204,7 +206,6 @@
     "Phaser3",
     "Angular/Directives/Directive Composition API.md",
     "Angular/Directives/Structural Directives.md",
-    "Angular/Directives/Image Optimization.md",
     "Angular/HttpClient",
     "Angular/Forms/Reactive Forms",
     "Angular/Routing",
