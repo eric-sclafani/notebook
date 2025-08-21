@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Algorithms/Sorting.md",
+                "file": "Computer Science/Algorithms/Searching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sorting"
+              "title": "Searching"
             }
           }
         ]
@@ -172,9 +172,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Computer Science/Algorithms/Sorting.md",
+    "Computer Science/Algorithms/Searching.md",
     "Computer Science/Computer Science.md",
     "Home.md",
-    "Computer Science/Algorithms/Sorting.md",
     "Computer Science/Algorithms/Algorithmic Complexity.md",
     "_images/merge_sort.jpg",
     "Angular/Components/Change Detection.md",

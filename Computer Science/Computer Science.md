@@ -2,6 +2,7 @@
 - **Algorithms**
 	- [[Algorithmic Complexity]]
 	- [[Recursion]]
+	- [[Searching]]
 	- [[Sorting]]
 - **Data Structures**
 	- [[Arrays]]
