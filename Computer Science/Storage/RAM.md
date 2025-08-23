@@ -1,0 +1,1 @@
+`RAM` or `R`andom `A`ccess `M`emory 

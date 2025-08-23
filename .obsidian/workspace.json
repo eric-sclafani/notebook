@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "2550a3bbca0f0e67",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d2ec78e586d1a02b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Algorithms/Searching.md",
+                "file": "Computer Science/Storage/Binary & Encoding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Searching"
+              "title": "Binary & Encoding"
             }
           }
         ]
@@ -170,50 +170,53 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d2ec78e586d1a02b",
   "lastOpenFiles": [
-    "Computer Science/Algorithms/Sorting.md",
-    "Computer Science/Algorithms/Searching.md",
+    "Computer Science/Storage/Number Systems.md",
+    "_images/hex_table_2.jpg",
+    "Computer Science/Storage/Binary & Encoding.md",
+    "_images/hex_table.jpg",
+    "_images/base10_ex1.jpg",
+    "_images/base10_ex2.jpg",
+    "_images/base10_ex2.jpg",
     "Computer Science/Computer Science.md",
-    "Home.md",
+    "Computer Science/Storage/RAM.md",
+    "Computer Science/Algorithms/Recursion.md",
     "Computer Science/Algorithms/Algorithmic Complexity.md",
-    "_images/merge_sort.jpg",
+    "Computer Science/Algorithms/Sorting.md",
+    "Computer Science/Data Structures/Linked Lists.md",
+    "Computer Science/Data Structures/Arrays.md",
+    "_images/octal_example.jpg",
+    "_images/octal.jpg",
+    "Angular/Components/Lifecycle.md",
+    "Angular/Components/Component Basics.md",
+    "_images/unicode.jpg",
+    "_images/ascii.jpg",
+    "Computer Science/Algorithms/Searching.md",
+    "Home.md",
+    "_images/binary.jpg",
     "Angular/Components/Change Detection.md",
     "Computer Science/Algorithms/Runtimes.md",
-    "Computer Science/Algorithms/Recursion.md",
-    "Angular/Components/Component Basics.md",
     "Angular/Components/Signals.md",
-    "_images/bigo.jpg",
     "Angular/Angular.md",
     "Computer Science/Data Structures/Data Structures.md",
     "Computer Science/Algorithms/Algorithms.md",
     "Math",
-    "Computer Science/Data Structures/Linked Lists.md",
     "Untitled.md",
-    "_images/single_ll.jpg",
-    "Computer Science/Data Structures/Arrays.md",
     "Angular/Forms/Reactive Forms.md",
     "Computer Science/Storage",
     "Computer Science/Algorithms/1.Basics.md",
     "RxJS/Observables.md",
     "RxJS/RxJS.md",
     "Angular/Routing/Route State.md",
-    "README.md",
     "Computer Science/Algorithms",
-    "Angular/Dependency Injection/Basics.md",
     "Computer Science/Data Structures",
     "DotNet",
-    "Phaser3/Basics.md",
     "Phaser3",
-    "Angular/Directives/Directive Composition API.md",
-    "Angular/Directives/Structural Directives.md",
     "Angular/HttpClient",
     "Angular/Forms/Reactive Forms",
     "Angular/Routing",
     "Angular/Dependency Injection",
-    "_images/hooks_update_order.png",
-    "_images/hooks_execution_order.png",
-    "_images/component_tree.png",
     "Untitled.canvas"
   ]
 }

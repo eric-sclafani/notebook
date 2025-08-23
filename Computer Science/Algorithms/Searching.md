@@ -49,6 +49,31 @@ public static int BinarySearch(int[] arr, int target, int offset=0)
 }
 ```
 
+A non-recursive version would look something like this:
+
+```csharp
+public static int BinarySearchLoop(int[] arr, int target)  
+{  
+    int l = 0, r = arr.Length-1;  
+  
+    while (l <= r){  
+       var mid = (l + r) / 2;  
+  
+       if (arr[mid] == target){  
+          return mid;  
+       }  
+       
+       if (arr[mid] < target){  
+          l = mid + 1;  
+       }  
+       
+       if (arr[mid] > target){  
+          r = mid - 1;  
+       }    
+    }    
+    return -1;  
+}
+```
 
 
 
