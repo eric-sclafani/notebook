@@ -19,6 +19,19 @@ So for example:
 ```
 
 
+## Addition
+
+Compared to adding [[Number Systems#Base-10 (decimal)|decimal]] numbers together, adding binary numbers is overall simpler.  It just consists of the following rules:
+
+![[binary_addition_rules.jpg]]
+
+When adding, write the numbers such that their **respective place values are aligned**. Next, add the digits at ones place using binary addition rules.
+
+If you have a carry, write a 0 and carry the 1 over to the next place value. Keep doing this until all have been added.
+
+See [here](https://www.splashlearn.com/math-vocabulary/binary-addition) for more information.
+
+
 # Characters
 
 To store **characters,** one more tool is necessary: `encoding`. This is the process of representing characters using numbers. And since numbers can be represented using binary, it can also represent characters. 
