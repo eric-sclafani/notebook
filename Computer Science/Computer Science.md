@@ -7,6 +7,10 @@
 - **Data Structures**
 	- [[Arrays]]
 	- [[Linked Lists]]
+	- [[Stacks & queues]]
+- **Processing**
+	- [[CPU]]
+	- [[GPU]]
 - **Storage**
 	- [[Binary & Encoding]]
 	- [[Number Systems]]

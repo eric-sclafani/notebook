@@ -4,6 +4,8 @@ Angular provides a client HTTP API for Angular applications, the `HttpClient` se
 
 `HttpClient` is provided using the `provideHttpClient` helper function, which most apps include in the application `providers` in `app.config.ts`.
 
+As of version 21, `HttpClient` will be provided by default :)
+
 ```angular-ts
 export const appConfig: ApplicationConfig = {
   providers: [
